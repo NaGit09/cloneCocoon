@@ -1,20 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="main.js"></script>
 </head>
+
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi enim perferendis quae repellendus aspernatur assumenda magnam fugit laborum facere quo blanditiis vel ipsam, ipsum eaque est ullam minus aliquid officiis.</p>
-    <figure>
-    <div class="field">
-        <input type="text" class="input_field"
-         placeholder=" " >
-        <label for="name" class="label_field"
-        >name</label>
-    </div>
-</figure>
+    <header>
+        <div class="container_header flex_col">
+
+            <div class="khuyenmai">
+                <p>Tận hưởng giao hàng miễn phí toàn quốc với hoá đơn từ 99.000 đ</p>
+            </div>
+
+            <nav class="flex_row">
+                <ul class="flex_row">
+                    <li> <i class="fa fa-search nav_items" aria-hidden="true"></i></li>
+                    <li><a class="nav_items" href="">Sản phẩm</a></li>
+                    <li><a class="nav_items" href="">Khuyến mãi</a></li>
+                    <li><a class="nav_items" href="">Cocoon</a></li>
+                    <li><a class="nav_items" href="">Bài viết</a></li>
+                </ul>
+                <img src="https://cocoonvietnam.com/_nuxt/img/logo.f502f17.svg" alt="icon">
+                <ul class="flex_row">
+                    <li><a class="nav_items" href="">Đăng nhập</a></li>
+                    <li><a class="nav_items" href="">Liên hệ</a></li>
+                    <li><a class="nav_items" href="">Giỏ hàng</a></li>
+                    <li><a class="nav_items underline_li" href="">EN</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <section>
+        <!-- page 1 -->
+        <div class="page_1">
+            <img class="img_nuocsen" src="img/nuocsenhaugaing.png" alt="nước sen hậu giang ">
+            <div class="container_content_1">
+                <p class="new_procedure"> Sản phẩm mới </p>
+                <p class="name_procedure">Nước sen Hậu <br>Giang </p>
+                <p class="describe_procedure">Toner dịu lành giúp bảo vệ hàng rào độ ẩm của làn da <br>
+                     nhạy cảm , giảm mẩn đỏ và ngứa do khô ráp  , <br>
+                      mang lại cho làng da 1 cảm giác nhẹ nhàng và êm ái <br>
+                    như được vỗ về .</p>
+                    <button class="button_seenow" type="button">
+                        Xem ngay <i class="fa fa-arrow-circle-right arrow" aria-hidden="true"></i>    
+                    </button>
+            </div>
+        </div>
+        <!-- page 2  -->
+         <div class="page_2 flex_row">
+            <div>
+                <h4>Nước dưỡng tóc 
+                    <br>tinh dầu bưởi </h4>
+            </div>
+            <div><img src="img/image 2.png" alt=""></div>
+            <div class="page_2_right">
+                <p class="ttsp">Tinh dầu vỏ bưởi đồng vận cùng <br>các hoạt chất tiên tiến gồm <br> Vitamin B5, Xylishine, 
+                    Baicapil và  <br>Bisabolol giúp giảm gãy rụng và <br> tăng cường sự phát triển của mái tóc.</p>
+                <button class="button_seenow" onclick="myfunction()" type="button">Mua ngay
+                     <i class="fa fa-arrow-circle-right arrow" aria-hidden="true"></i>
+                </button>
+            </div>
+         </div>
+         <!-- page 3 -->
+          <div class="page_3 flex_row">
+            <div class="ttth">
+                <h3> <b>Triết lý</b> thương hiệu</h3>
+                <p class="p_page3">Là những người yêu thiên nhiên và đam mê khám <br> phá các nguồn nguyên liệu đặc hữu của Việt Nam, 
+                   <br> chúng tôi luôn kiên định với những triết lý trên hành <br> trình tìm vẻ đẹp thật sự của làn da.</p>
+                <button class="button_seenow" onclick="myfunction()" type="button">Mua ngay
+                    <i class="fa fa-arrow-circle-right arrow" aria-hidden="true"></i>
+               </button>
+            </div>
+          </div>
+          <div class="text_run flex_col"> <p>Mỹ phẩm 100% thuần chay cho nét đẹp thuần việt </p></div>
+          <!-- page 4  -->
+           <div class="flex_col">
+            <p class="certificate">Chứng nhận bởi các tổ chức Quốc tế</p>
+            <div class="flex_row">
+                <div class="items_page4">
+                    <img src="img/image 4.png" alt="item page 4">
+                    <h6>The vegan society</h6>
+                    <p><b>CHƯƠNG TRÌNH LEAPING BUNNY</b><br>
+                     Chương trình Leaping Bunny của tổ chức Cruelty <br>
+                      Free International được xem là "tiêu chuẩn vàng" <br>
+                      toàn cầu cho các sản phẩm không thử nghiệm <br>
+                      trên động vật.</p>
+                </div>
+                <div class="items_page4">
+                    <img src="img/image 5.png" alt="item page 4">
+                    <h6 >The vegan society</h6>
+                    <p> <b>HIỆP HỘI THUẦN CHAY QUỐC TẾ</b> <br>
+                        The Vegan Society (Hiệp hội thuần chay quốc tế) <br>
+                         là một trong những chứng nhận uy tín xác thực <br>
+                          cho các sản phẩm không có thành phần từ động vật <br>
+                           và không thử nghiệm trên động vật</p>
+                </div>
+                <div class="items_page4">
+                    <img src="img/image 6.png" alt="item page 4">
+                    <h6>The vegan society</h6>
+                    <p> <b>ANIMAL TEST-FREE & VEGAN</b> <br>
+                       Chương trình Beauty Without Bunnies của tổ chức <br>
+                        bảo vệ quyền lợi động vật toàn cầu PETA <br>
+                         là chương trình bảo vệ và cam kết <br>
+                          không có sự tàn ác đối với động vật uy tín <br>
+                           trên thế giới.
+                    </p>
+                </div>
+            </div>
+
+           </div>
+    </section>
 </body>
+
 </html>
